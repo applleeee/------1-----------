@@ -1,0 +1,22 @@
+@import "main.css";
+@import "About_me.css";
+
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "HBIOS-SYS";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/HBIOS-SYS.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DeogonPrincess";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/DeogonPrincess.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}

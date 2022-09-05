@@ -1,0 +1,73 @@
+body {
+  background-image: url(../image/main-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  font-family: "HBIOS-SYS";
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-intro {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  position: absolute;
+  left: 95%;
+  top: 5%;
+  font-size: 30px;
+  font-family: "DeogonPrincess";
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(229, 226, 216, 0.324);
+  border-radius: 7%;
+  padding: 20px 80px;
+}
+
+.main-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+hr {
+  width: 200px;
+  height: 3px;
+  border: 0;
+  background-color: black;
+}
+
+.main-list {
+  padding: 0;
+}
+
+.main-list-box li {
+  list-style: none;
+  font-size: 35px;
+  padding: 3px 0px;
+}
+
+.main-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.main-icon {
+  margin-right: 10px;
+}

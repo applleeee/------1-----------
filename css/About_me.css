@@ -1,0 +1,29 @@
+.about_me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(229, 226, 216, 0.324);
+  border-radius: 7%;
+  padding: 20px 80px;
+  max-width: 70vw;
+  font-family: "DeogonPrincess";
+}
+
+.about_me-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+
+.about_me-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(76, 77, 73, 0.19);
+  border-radius: 8px;
+  font-size: 25px;
+}
