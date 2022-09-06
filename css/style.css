@@ -1,5 +1,6 @@
 @import "main.css";
-@import "About_me.css";
+@import "about_me.css";
+@import "project.css";
 
 body {
   margin: 0;

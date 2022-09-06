@@ -1,0 +1,13 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(229, 226, 216, 0.324);
+  border-radius: 7%;
+  padding: 20px 70px;
+  max-width: 70vw;
+  position: absolute;
+  top: 100px;
+  font-family: "DeogonPrincess";
+}

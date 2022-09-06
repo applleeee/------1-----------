@@ -2,6 +2,7 @@ body {
   background-image: url(../image/main-background.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #effffd;
   height: 100vh;
   width: 100vw;
   font-family: "HBIOS-SYS";
@@ -9,9 +10,6 @@ body {
 
 .main {
   display: flex;
-  height: 100vh;
-  width: 100vw;
-  margin-top: 50px;
   justify-content: center;
   align-items: center;
 }
@@ -31,6 +29,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  top: 20%;
   background-color: rgba(229, 226, 216, 0.324);
   border-radius: 7%;
   padding: 20px 80px;
