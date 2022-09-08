@@ -3,8 +3,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #effffd;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   font-family: "HBIOS-SYS";
 }
 
@@ -29,8 +29,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 20%;
+  position: relative;
+  top: 20vh;
   background-color: rgba(229, 226, 216, 0.324);
   border-radius: 7%;
   padding: 20px 80px;
@@ -44,10 +44,9 @@ body {
   font-size: 50px;
 }
 
-hr {
+hr.title {
   width: 200px;
   height: 3px;
-  border: 0;
   background-color: black;
 }
 
