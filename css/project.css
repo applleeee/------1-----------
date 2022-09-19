@@ -43,10 +43,11 @@
 
 .project-content {
   padding: 10px 20px;
-  margin: 20px 10px;
+  margin: 20px 0;
   border: 2px solid rgba(76, 77, 73, 0.2);
   border-radius: 20px;
-  width: 90%;
+  min-width: auto !important;
+  width: 80%;
 }
 
 .project-link {

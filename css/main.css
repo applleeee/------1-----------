@@ -44,6 +44,22 @@ body {
   font-size: 50px;
 }
 
+@keyframes logo {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.main-profile img {
+  animation-name: logo;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+
 hr.title {
   width: 200px;
   height: 3px;
