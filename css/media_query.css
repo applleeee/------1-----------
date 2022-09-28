@@ -11,4 +11,16 @@
   .project-descripton > ul {
     font-size: 17px;
   }
+  .main {
+    flex-direction: column;
+  }
+  .main-intro {
+    position: initial;
+    width: fit-content;
+    writing-mode: initial;
+    text-orientation: initial;
+    transform: translateY(40px);
+    font-size: 25px;
+    font-family: "DeogonPrincess";
+  }
 }
