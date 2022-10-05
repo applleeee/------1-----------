@@ -2,6 +2,7 @@
 @import "main.css";
 @import "about_me.css";
 @import "project.css";
+@import "game.css";
 
 body {
   margin: 0;

@@ -1,0 +1,26 @@
+#game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#canvas {
+  position: relative;
+  top: 15vh;
+  border: 3px solid black;
+  border-radius: 10px;
+  max-width: 70%;
+  background-color: rgb(247, 248, 248);
+}
+
+.hide {
+  display: none;
+}
+
+#died {
+  position: absolute;
+  width: 20%;
+  max-height: 10%;
+  top: 20vh;
+  box-shadow: 0px 0px 15px 5px black;
+}
