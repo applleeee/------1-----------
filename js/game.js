@@ -55,8 +55,10 @@ function everyFrame() {
 
   ctx.clearRect(0, 0, canvas.width, canvas.height); //사각형 삭제
 
+  let 
+
   if (timer % 200 === 0) {
-    //초/60프레임에 한번씩 장애물 생성
+    // 200프레임에 한번씩 장애물 생성
     let cactus = new Cactus();
     everycactus.push(cactus);
   }
@@ -90,6 +92,7 @@ function everyFrame() {
   floor();
   dino.draw();
 
+  // 점수
   score += 1;
   ctx.style = "black";
   ctx.font = "normal bold 20px Arial, sans-serif";
